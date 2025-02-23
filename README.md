@@ -1,0 +1,3 @@
+# React Router v6 Nested Route Conflict
+
+This repository demonstrates a bug in React Router v6 related to unexpected routing behavior when navigating to a route with a nested component that has a conflicting route path. The app sometimes renders a blank page or the wrong component, instead of the intended nested component.  The issue arises due to path conflicts between routes.  The solution involves careful route path planning and potentially restructuring the routing hierarchy to avoid path ambiguity.
